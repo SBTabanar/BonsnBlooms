@@ -31,10 +31,10 @@ namespace BonsandBlooms
                 LBLMSG.BackColor = Color.Transparent;
 
                 query = "SELECT PROCODE FROM tblProductInfo";
-                config.autocomplete(query, txtPROCODE);
+                config.AutoComplete(query, txtPROCODE);
 
                 query = "SELECT PRONAME FROM tblProductInfo";
-                config.autocomplete(query, TXTPRODUCT);
+                config.AutoComplete(query, TXTPRODUCT);
 
                 config.autonumber_transaction(1, LBLTRANSNUM);
             }

@@ -31,9 +31,9 @@
             this.Panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.LogoPictureBox = new System.Windows.Forms.PictureBox();
-            this.Cancel = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.UsernameLabel = new System.Windows.Forms.Label();
-            this.OK = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.PasswordLabel = new System.Windows.Forms.Label();
             this.PasswordTextBox = new System.Windows.Forms.TextBox();
             this.UsernameTextBox = new System.Windows.Forms.TextBox();
@@ -47,9 +47,9 @@
             this.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Panel1.Controls.Add(this.label1);
             this.Panel1.Controls.Add(this.LogoPictureBox);
-            this.Panel1.Controls.Add(this.Cancel);
+            this.Panel1.Controls.Add(this.btnCancel);
             this.Panel1.Controls.Add(this.UsernameLabel);
-            this.Panel1.Controls.Add(this.OK);
+            this.Panel1.Controls.Add(this.btnLogin);
             this.Panel1.Controls.Add(this.PasswordLabel);
             this.Panel1.Controls.Add(this.PasswordTextBox);
             this.Panel1.Controls.Add(this.UsernameTextBox);
@@ -81,19 +81,19 @@
             this.LogoPictureBox.TabIndex = 0;
             this.LogoPictureBox.TabStop = false;
             // 
-            // Cancel
+            // btnCancel
             // 
-            this.Cancel.BackColor = System.Drawing.Color.LightCoral;
-            this.Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cancel.Location = new System.Drawing.Point(373, 251);
-            this.Cancel.Name = "Cancel";
-            this.Cancel.Size = new System.Drawing.Size(94, 34);
-            this.Cancel.TabIndex = 5;
-            this.Cancel.Text = "&Cancel";
-            this.Cancel.UseVisualStyleBackColor = false;
-            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
+            this.btnCancel.BackColor = System.Drawing.Color.LightCoral;
+            this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Location = new System.Drawing.Point(373, 251);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(94, 34);
+            this.btnCancel.TabIndex = 5;
+            this.btnCancel.Text = "&Cancel";
+            this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // UsernameLabel
             // 
@@ -106,18 +106,18 @@
             this.UsernameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.UsernameLabel.Click += new System.EventHandler(this.UsernameLabel_Click);
             // 
-            // OK
+            // btnLogin
             // 
-            this.OK.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.OK.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.OK.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OK.Location = new System.Drawing.Point(163, 251);
-            this.OK.Name = "OK";
-            this.OK.Size = new System.Drawing.Size(204, 34);
-            this.OK.TabIndex = 4;
-            this.OK.Text = "&Login";
-            this.OK.UseVisualStyleBackColor = false;
-            this.OK.Click += new System.EventHandler(this.OK_Click);
+            this.btnLogin.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Location = new System.Drawing.Point(163, 251);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(204, 34);
+            this.btnLogin.TabIndex = 4;
+            this.btnLogin.Text = "&Login";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // PasswordLabel
             // 
@@ -171,9 +171,9 @@
 
         internal System.Windows.Forms.Panel Panel1;
         internal System.Windows.Forms.PictureBox LogoPictureBox;
-        internal System.Windows.Forms.Button Cancel;
+        internal System.Windows.Forms.Button btnCancel;
         internal System.Windows.Forms.Label UsernameLabel;
-        internal System.Windows.Forms.Button OK;
+        internal System.Windows.Forms.Button btnLogin;
         internal System.Windows.Forms.Label PasswordLabel;
         internal System.Windows.Forms.TextBox PasswordTextBox;
         internal System.Windows.Forms.TextBox UsernameTextBox;

@@ -40,9 +40,9 @@
             this.Label7 = new System.Windows.Forms.Label();
             this.Label4 = new System.Windows.Forms.Label();
             this.Label6 = new System.Windows.Forms.Label();
-            this.Button2 = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.btnList = new System.Windows.Forms.Button();
-            this.BTNSAVE = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -188,19 +188,19 @@
             this.Label6.TabIndex = 64;
             this.Label6.Text = "Price :";
             // 
-            // Button2
+            // btnClose
             // 
-            this.Button2.BackColor = System.Drawing.Color.LightCoral;
-            this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button2.Location = new System.Drawing.Point(432, 437);
-            this.Button2.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(150, 59);
-            this.Button2.TabIndex = 58;
-            this.Button2.Text = "Close";
-            this.Button2.UseVisualStyleBackColor = false;
-            this.Button2.Click += new System.EventHandler(this.Button2_Click);
+            this.btnClose.BackColor = System.Drawing.Color.LightCoral;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Location = new System.Drawing.Point(432, 437);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(150, 59);
+            this.btnClose.TabIndex = 58;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnList
             // 
@@ -216,19 +216,19 @@
             this.btnList.UseVisualStyleBackColor = false;
             this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
-            // BTNSAVE
+            // btnSave
             // 
-            this.BTNSAVE.BackColor = System.Drawing.Color.LightGreen;
-            this.BTNSAVE.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BTNSAVE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNSAVE.Location = new System.Drawing.Point(112, 437);
-            this.BTNSAVE.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.BTNSAVE.Name = "BTNSAVE";
-            this.BTNSAVE.Size = new System.Drawing.Size(150, 59);
-            this.BTNSAVE.TabIndex = 56;
-            this.BTNSAVE.Text = "Save";
-            this.BTNSAVE.UseVisualStyleBackColor = false;
-            this.BTNSAVE.Click += new System.EventHandler(this.BTNSAVE_Click);
+            this.btnSave.BackColor = System.Drawing.Color.LightGreen;
+            this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Location = new System.Drawing.Point(112, 437);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(150, 59);
+            this.btnSave.TabIndex = 56;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // label5
             // 
@@ -278,9 +278,9 @@
             this.Controls.Add(this.Label7);
             this.Controls.Add(this.Label4);
             this.Controls.Add(this.Label6);
-            this.Controls.Add(this.Button2);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnList);
-            this.Controls.Add(this.BTNSAVE);
+            this.Controls.Add(this.btnSave);
             this.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(696, 590);
@@ -307,9 +307,9 @@
         internal System.Windows.Forms.Label Label7;
         internal System.Windows.Forms.Label Label4;
         internal System.Windows.Forms.Label Label6;
-        internal System.Windows.Forms.Button Button2;
+        internal System.Windows.Forms.Button btnClose;
         internal System.Windows.Forms.Button btnList;
-        internal System.Windows.Forms.Button BTNSAVE;
+        internal System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.PictureBox pictureBox1;

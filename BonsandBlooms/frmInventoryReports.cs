@@ -26,7 +26,7 @@ namespace BonsandBlooms
         {
             string sql = "SELECT CategoryName FROM tblCategory ORDER BY CategoryName";
             cboCateg.Items.Clear();
-            config.combo(sql, cboCateg);       
+            config.Combo(sql, cboCateg);       
 
             cboCateg.Items.Insert(0, "All");
             cboCateg.SelectedIndex = 0;           

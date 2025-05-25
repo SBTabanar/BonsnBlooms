@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnList = new System.Windows.Forms.Button();
+            this.btnHistory = new System.Windows.Forms.Button();
             this.Label12 = new System.Windows.Forms.Label();
             this.Label11 = new System.Windows.Forms.Label();
             this.Label4 = new System.Windows.Forms.Label();
@@ -45,11 +45,11 @@
             this.LBLCURRENTQTY = new System.Windows.Forms.Label();
             this.LBLUNIT = new System.Windows.Forms.Label();
             this.Label15 = new System.Windows.Forms.Label();
-            this.BTNNEW = new System.Windows.Forms.Button();
-            this.BTNADD = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.DTPTRANSDATE = new System.Windows.Forms.DateTimePicker();
             this.Label14 = new System.Windows.Forms.Label();
-            this.BTNCLOSE = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.LBLTRANSNUM = new System.Windows.Forms.Label();
             this.GroupBox1 = new System.Windows.Forms.GroupBox();
             this.Label5 = new System.Windows.Forms.Label();
@@ -63,19 +63,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnList
+            // btnHistory
             // 
-            this.btnList.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnList.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnList.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnList.Location = new System.Drawing.Point(216, 551);
-            this.btnList.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.btnList.Name = "btnList";
-            this.btnList.Size = new System.Drawing.Size(85, 44);
-            this.btnList.TabIndex = 42;
-            this.btnList.Text = "History";
-            this.btnList.UseVisualStyleBackColor = false;
-            this.btnList.Click += new System.EventHandler(this.btnList_Click);
+            this.btnHistory.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnHistory.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistory.Location = new System.Drawing.Point(216, 551);
+            this.btnHistory.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnHistory.Name = "btnHistory";
+            this.btnHistory.Size = new System.Drawing.Size(85, 44);
+            this.btnHistory.TabIndex = 42;
+            this.btnHistory.Text = "History";
+            this.btnHistory.UseVisualStyleBackColor = false;
+            this.btnHistory.Click += new System.EventHandler(this.btnHistory_Click);
             // 
             // Label12
             // 
@@ -258,33 +258,33 @@
             this.Label15.TabIndex = 37;
             this.Label15.Text = "Transaction #:";
             // 
-            // BTNNEW
+            // btnNew
             // 
-            this.BTNNEW.BackColor = System.Drawing.SystemColors.Control;
-            this.BTNNEW.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BTNNEW.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNNEW.Location = new System.Drawing.Point(307, 551);
-            this.BTNNEW.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.BTNNEW.Name = "BTNNEW";
-            this.BTNNEW.Size = new System.Drawing.Size(85, 44);
-            this.BTNNEW.TabIndex = 33;
-            this.BTNNEW.Text = "New";
-            this.BTNNEW.UseVisualStyleBackColor = false;
-            this.BTNNEW.Click += new System.EventHandler(this.BTNNEW_Click);
+            this.btnNew.BackColor = System.Drawing.SystemColors.Control;
+            this.btnNew.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNew.Location = new System.Drawing.Point(307, 551);
+            this.btnNew.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(85, 44);
+            this.btnNew.TabIndex = 33;
+            this.btnNew.Text = "New";
+            this.btnNew.UseVisualStyleBackColor = false;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
-            // BTNADD
+            // btnAdd
             // 
-            this.BTNADD.BackColor = System.Drawing.Color.LightGreen;
-            this.BTNADD.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BTNADD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNADD.Location = new System.Drawing.Point(21, 551);
-            this.BTNADD.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.BTNADD.Name = "BTNADD";
-            this.BTNADD.Size = new System.Drawing.Size(85, 44);
-            this.BTNADD.TabIndex = 34;
-            this.BTNADD.Text = "Save";
-            this.BTNADD.UseVisualStyleBackColor = false;
-            this.BTNADD.Click += new System.EventHandler(this.BTNADD_Click);
+            this.btnAdd.BackColor = System.Drawing.Color.LightGreen;
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.Location = new System.Drawing.Point(21, 551);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(85, 44);
+            this.btnAdd.TabIndex = 34;
+            this.btnAdd.Text = "Save";
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // DTPTRANSDATE
             // 
@@ -308,19 +308,19 @@
             this.Label14.TabIndex = 39;
             this.Label14.Text = "Transaction Date:";
             // 
-            // BTNCLOSE
+            // btnClose
             // 
-            this.BTNCLOSE.BackColor = System.Drawing.Color.LightCoral;
-            this.BTNCLOSE.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.BTNCLOSE.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BTNCLOSE.Location = new System.Drawing.Point(400, 551);
-            this.BTNCLOSE.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.BTNCLOSE.Name = "BTNCLOSE";
-            this.BTNCLOSE.Size = new System.Drawing.Size(85, 44);
-            this.BTNCLOSE.TabIndex = 35;
-            this.BTNCLOSE.Text = "Close";
-            this.BTNCLOSE.UseVisualStyleBackColor = false;
-            this.BTNCLOSE.Click += new System.EventHandler(this.BTNCLOSE_Click);
+            this.btnClose.BackColor = System.Drawing.Color.LightCoral;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Location = new System.Drawing.Point(400, 551);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(85, 44);
+            this.btnClose.TabIndex = 35;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // LBLTRANSNUM
             // 
@@ -430,13 +430,13 @@
             this.ClientSize = new System.Drawing.Size(945, 663);
             this.Controls.Add(this.btnProductList);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btnList);
+            this.Controls.Add(this.btnHistory);
             this.Controls.Add(this.Label15);
-            this.Controls.Add(this.BTNNEW);
-            this.Controls.Add(this.BTNADD);
+            this.Controls.Add(this.btnNew);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.DTPTRANSDATE);
             this.Controls.Add(this.Label14);
-            this.Controls.Add(this.BTNCLOSE);
+            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.LBLTRANSNUM);
             this.Controls.Add(this.LBLMSG);
             this.Controls.Add(this.GroupBox1);
@@ -460,7 +460,7 @@
 
         #endregion
 
-        internal System.Windows.Forms.Button btnList;
+        internal System.Windows.Forms.Button btnHistory;
         internal System.Windows.Forms.Label Label12;
         internal System.Windows.Forms.Label Label11;
         internal System.Windows.Forms.Label Label4;
@@ -475,11 +475,11 @@
         internal System.Windows.Forms.TextBox TXTPRODUCT;
         internal System.Windows.Forms.GroupBox GroupBox3;
         internal System.Windows.Forms.Label Label15;
-        internal System.Windows.Forms.Button BTNNEW;
-        internal System.Windows.Forms.Button BTNADD;
+        internal System.Windows.Forms.Button btnNew;
+        internal System.Windows.Forms.Button btnAdd;
         internal System.Windows.Forms.DateTimePicker DTPTRANSDATE;
         internal System.Windows.Forms.Label Label14;
-        internal System.Windows.Forms.Button BTNCLOSE;
+        internal System.Windows.Forms.Button btnClose;
         internal System.Windows.Forms.Label LBLTRANSNUM;
         internal System.Windows.Forms.GroupBox GroupBox1;
         internal System.Windows.Forms.Label Label5;

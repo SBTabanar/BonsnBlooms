@@ -162,7 +162,7 @@ namespace BonsandBlooms
             }
         }
 
-        public void fiil_CBO(string sql, ComboBox cbo)
+        public void Fill_CBO(string sql, ComboBox cbo)
         {
             try
             {
@@ -195,7 +195,7 @@ namespace BonsandBlooms
             }
         }
 
-        public void combo(string sql, ComboBox cbo)
+        public void Combo(string sql, ComboBox cbo)
         {
             try
             {
@@ -240,7 +240,7 @@ namespace BonsandBlooms
             }
         }
 
-        public void singleResult(string sql)
+        public void SingleResult(string sql)
         {
             try
             {
@@ -253,7 +253,6 @@ namespace BonsandBlooms
                 cmd.CommandText = sql;
                 da.SelectCommand = cmd;
                 da.Fill(dt);
-                // Implementation depends on usage, add null checks if accessing dt.Rows
             }
             catch (Exception ex)
             {
@@ -325,7 +324,7 @@ namespace BonsandBlooms
             return maxrow;
         }
 
-        public void loadReports(string sql)
+        public void LoadReports(string sql)
         {
             try
             {
@@ -350,7 +349,7 @@ namespace BonsandBlooms
             }
         }
 
-        public void autocomplete(string sql, TextBox txt)
+        public void AutoComplete(string sql, TextBox txt)
         {
             try
             {

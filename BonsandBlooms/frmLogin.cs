@@ -19,14 +19,14 @@ namespace BonsandBlooms
             InitializeComponent();
             this.frm = frm;
 
-            this.AcceptButton = OK;
+            this.AcceptButton = btnLogin;
         }
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
         }
 
-        private void OK_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
             query = "SELECT * FROM tblUser WHERE U_UNAME ='" + UsernameTextBox.Text + "' AND U_PASS = '" + PasswordTextBox.Text + "'";
             maxrow = config.maxrow(query);
@@ -34,8 +34,8 @@ namespace BonsandBlooms
             if (maxrow > 0)
             {
                 MessageBox.Show("User successfully logged in");
-                string userRole = GetUserRole(UsernameTextBox.Text);
-                frm.enable_menu(userRole);
+                string userRole = getUserRole(UsernameTextBox.Text);
+                frm.EnableMenu(userRole);
                 this.Close();
             }
             else
@@ -44,7 +44,7 @@ namespace BonsandBlooms
             }
         }
 
-        private string GetUserRole(string username)
+        private string getUserRole(string username)
         {
             string role = string.Empty;
             string query = "SELECT U_TYPE FROM tblUser WHERE U_UNAME = ?";
@@ -59,7 +59,7 @@ namespace BonsandBlooms
         }
 
 
-        private void Cancel_Click(object sender, EventArgs e)
+        private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
         }

@@ -20,7 +20,7 @@ namespace BonsandBlooms
 
             try
             {
-                retrieveProduct(id);
+                RetrieveProduct(id);
             }
             catch (Exception ex)
             {
@@ -29,7 +29,7 @@ namespace BonsandBlooms
             }
         }
 
-        private void retrieveProduct(string id)
+        private void RetrieveProduct(string id)
         {
             sql = "SELECT PROCODE, PRONAME, PRODESC, CATEGORY, PROPRICE FROM tblProductInfo WHERE PROCODE = '" + id + "'";
             maxrow = config.maxrow(sql);
@@ -52,9 +52,8 @@ namespace BonsandBlooms
             }
         }
 
-        private void BTNSAVE_Click(object sender, EventArgs e)
+        private void btnSave_Click(object sender, EventArgs e)
         {
-            // Input validation
             if (string.IsNullOrWhiteSpace(TXTPRONAME.Text))
             {
                 MessageBox.Show("Product name is required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -117,7 +116,7 @@ namespace BonsandBlooms
             this.Close();
         }
 
-        private void Button2_Click(object sender, EventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
         }

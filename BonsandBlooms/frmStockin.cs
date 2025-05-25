@@ -25,7 +25,7 @@ namespace BonsandBlooms
         {
             try
             {
-                BTNNEW_Click(sender, e);
+                btnNew_Click(sender, e);
             }
             catch (Exception ex)
             {
@@ -33,7 +33,7 @@ namespace BonsandBlooms
             }
         }
 
-        private void BTNNEW_Click(object sender, EventArgs e)
+        private void btnNew_Click(object sender, EventArgs e)
         {
             try
             {
@@ -46,9 +46,9 @@ namespace BonsandBlooms
 
                 config.autonumber_transaction(1, LBLTRANSNUM);
 
-                config.autocomplete("SELECT PROCODE FROM tblProductInfo", txtPROCODE);
+                config.AutoComplete("SELECT PROCODE FROM tblProductInfo", txtPROCODE);
 
-                config.autocomplete("SELECT PRONAME FROM tblProductInfo", TXTPRODUCT);
+                config.AutoComplete("SELECT PRONAME FROM tblProductInfo", TXTPRODUCT);
 
                 TXTPRODUCT.Enabled = true;
                 TXTPRODUCT.ReadOnly = false;
@@ -59,12 +59,12 @@ namespace BonsandBlooms
             }
         }
 
-        private void BTNCLOSE_Click(object sender, EventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void BTNADD_Click(object sender, EventArgs e)
+        private void btnAdd_Click(object sender, EventArgs e)
         {
             try
             {
@@ -139,7 +139,7 @@ namespace BonsandBlooms
 
                 config.update_Autonumber(1);
 
-                BTNNEW_Click(sender, e);
+                btnNew_Click(sender, e);
             }
             catch (Exception ex)
             {
@@ -240,7 +240,7 @@ namespace BonsandBlooms
             }
         }
 
-        private void btnList_Click(object sender, EventArgs e)
+        private void btnHistory_Click(object sender, EventArgs e)
         {
             try
             {

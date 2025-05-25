@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BonsandBlooms
@@ -21,7 +14,7 @@ namespace BonsandBlooms
         string sql;
         int maxrow;
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void btnNew_Click(object sender, EventArgs e)
         {
             func.clearTxt(this);
             cboCateg.Text = "Select";
@@ -31,11 +24,11 @@ namespace BonsandBlooms
         private void frmProduct_Load(object sender, EventArgs e)
         {
             LoadCategories();
-            Button1_Click(sender, e);
+            btnNew_Click(sender, e);
         }
 
 
-        private void Button2_Click(object sender, EventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -52,13 +45,13 @@ namespace BonsandBlooms
         private void LoadCategories()
         {
             string sql = "SELECT CategoryName FROM tblCategory ORDER BY CategoryName";
-            config.combo(sql, cboCateg);
+            config.Combo(sql, cboCateg);
         }
 
 
 
 
-        private void BTNSAVE_Click(object sender, EventArgs e)
+        private void btnSave_Click(object sender, EventArgs e)
         {
             string selectedCategory = cboCateg.Text?.Trim();
 
@@ -124,7 +117,7 @@ namespace BonsandBlooms
                 config.update_Autonumber(2);
             }
 
-            Button1_Click(sender, e);
+            btnNew_Click(sender, e);
         }
 
 

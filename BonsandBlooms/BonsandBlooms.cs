@@ -24,7 +24,7 @@ namespace BonsandBlooms
             frm.ShowDialog();
         }
 
-        public void enable_menu(string userRole)
+        public void EnableMenu(string userRole)
         {
             currentUserRole = userRole;
 
@@ -39,7 +39,7 @@ namespace BonsandBlooms
         }
 
 
-        private void disable_menu()
+        private void DisableMenu()
         {
             currentUserRole = string.Empty;
 
@@ -54,7 +54,7 @@ namespace BonsandBlooms
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            disable_menu();
+            DisableMenu();
         }
 
         private void tsProduct_Click(object sender, EventArgs e)
@@ -101,7 +101,7 @@ namespace BonsandBlooms
             }
             else
             {
-                disable_menu();
+                DisableMenu();
             }
            
         }
