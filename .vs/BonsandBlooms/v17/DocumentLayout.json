@@ -1,129 +1,133 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\",
+  "WorkspaceRootPath": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|e:\\coding projects\\c#\\bons and blooms\\bonsandblooms\\bonsandblooms\\frminventoryreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frminventoryreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|e:\\coding projects\\c#\\bons and blooms\\bonsandblooms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmeditproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmeditproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmlistofproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmlistofproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmliststockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmliststockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmliststockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmliststockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmstockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmstockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmstockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmstockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\bonsandblooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\bonsandblooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frminventoryreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frminventoryreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmlistofproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmlistofproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmcategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmcategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmcategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmcategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\databaseconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\databaseconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\databaseconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmstockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmstockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmstockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmstockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\bonsandblooms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\bonsandblooms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frminventoryreports.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frminventoryreports.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmcategorymanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmcategorymanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmliststockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmliststockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmliststockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmliststockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\bonsandblooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\bonsandblooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\bonsandblooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmeditproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\bonsandblooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\bonsandblooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|e:\\coding projects\\c#\\bons and blooms\\bonsandblooms\\frminventoryreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frminventoryreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmeditproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmeditproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmlistofproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmlistofproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmliststockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmliststockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmliststockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmliststockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmstockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmstockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmstockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmstockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frminventoryreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frminventoryreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmlistofproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmlistofproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmcategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmcategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmcategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmcategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmstockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmstockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmstockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmstockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\bonsandblooms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\bonsandblooms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frminventoryreports.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frminventoryreports.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmcategorymanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmcategorymanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmliststockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmliststockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmliststockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmliststockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmeditproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmeditproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\usablefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\usablefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\usablefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmstockin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmstockin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmstockin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\bonsandblooms\\frmeditproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|E:\\CODING PROJECTS\\C#\\Bons and Blooms\\bonsandblooms\\frmeditproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6895D3E-B507-40FD-B294-B290F996F699}|BonsandBlooms\\Bons and Blooms.csproj|solutionrelative:bonsandblooms\\frmeditproduct.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -134,15 +138,135 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BonsandBlooms.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms.cs",
+              "RelativeDocumentMoniker": "BonsandBlooms\\BonsandBlooms.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms.cs",
+              "RelativeToolTip": "BonsandBlooms\\BonsandBlooms.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T21:25:20.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmProduct.cs [Design]",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmProduct.cs",
+              "RelativeDocumentMoniker": "BonsandBlooms\\frmProduct.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmProduct.cs [Design]",
+              "RelativeToolTip": "BonsandBlooms\\frmProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T21:20:49.548Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmProduct.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmProduct.cs",
+              "RelativeDocumentMoniker": "BonsandBlooms\\frmProduct.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmProduct.cs",
+              "RelativeToolTip": "BonsandBlooms\\frmProduct.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T21:24:16.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseConnect.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\DatabaseConnect.cs",
+              "RelativeDocumentMoniker": "BonsandBlooms\\DatabaseConnect.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\DatabaseConnect.cs",
+              "RelativeToolTip": "BonsandBlooms\\DatabaseConnect.cs",
+              "ViewState": "AgIAAEoBAAAAAAAAAAAAAOsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T20:38:36.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmLogin.cs",
+              "RelativeDocumentMoniker": "BonsandBlooms\\frmLogin.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmLogin.cs [Design]",
+              "RelativeToolTip": "BonsandBlooms\\BonsandBlooms\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T21:44:22.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmListStockin.cs [Design]",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmListStockin.cs",
+              "RelativeDocumentMoniker": "BonsandBlooms\\frmListStockin.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListStockin.cs [Design]",
+              "RelativeToolTip": "BonsandBlooms\\BonsandBlooms\\frmListStockin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T21:38:43.497Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\Program.cs",
+              "RelativeDocumentMoniker": "BonsandBlooms\\Program.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\Program.cs",
+              "RelativeToolTip": "BonsandBlooms\\Program.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwGIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:44:56.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BonsandBlooms.cs [Design]",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms.cs",
+              "RelativeDocumentMoniker": "BonsandBlooms\\BonsandBlooms.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms.cs [Design]",
+              "RelativeToolTip": "BonsandBlooms\\BonsandBlooms.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T21:26:43.337Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmEditProduct.cs [Design]",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmEditProduct.cs",
+              "RelativeDocumentMoniker": "BonsandBlooms\\frmEditProduct.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmEditProduct.cs [Design]",
+              "RelativeToolTip": "BonsandBlooms\\BonsandBlooms\\frmEditProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T21:27:45.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmListofProducts.cs [Design]",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmListofProducts.cs",
+              "RelativeDocumentMoniker": "BonsandBlooms\\frmListofProducts.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListofProducts.cs [Design]",
+              "RelativeToolTip": "BonsandBlooms\\BonsandBlooms\\frmListofProducts.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T22:33:22.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "frmInventoryReports.cs [Design]",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmInventoryReports.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmInventoryReports.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmInventoryReports.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmInventoryReports.cs [Design]",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmInventoryReports.cs [Design]",
               "RelativeToolTip": "BonsandBlooms\\frmInventoryReports.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T13:32:10.679Z",
@@ -150,110 +274,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmProduct.cs [Design]",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmProduct.cs",
-              "RelativeDocumentMoniker": "BonsandBlooms\\frmProduct.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmProduct.cs [Design]",
-              "RelativeToolTip": "BonsandBlooms\\frmProduct.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T21:20:49.548Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "frmListStockout.cs [Design]",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListStockout.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmListStockout.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmListStockout.cs",
               "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListStockout.cs [Design]",
-              "RelativeToolTip": "BonsandBlooms\\frmListStockout.cs [Design]",
+              "RelativeToolTip": "BonsandBlooms\\BonsandBlooms\\frmListStockout.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T21:26:50.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmListofProducts.cs [Design]",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListofProducts.cs",
-              "RelativeDocumentMoniker": "BonsandBlooms\\frmListofProducts.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListofProducts.cs [Design]",
-              "RelativeToolTip": "BonsandBlooms\\frmListofProducts.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T22:33:22.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmListStockin.cs [Design]",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListStockin.cs",
-              "RelativeDocumentMoniker": "BonsandBlooms\\frmListStockin.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListStockin.cs [Design]",
-              "RelativeToolTip": "BonsandBlooms\\frmListStockin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T21:38:43.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmLogin.cs [Design]",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmLogin.cs",
-              "RelativeDocumentMoniker": "BonsandBlooms\\frmLogin.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmLogin.cs [Design]",
-              "RelativeToolTip": "BonsandBlooms\\frmLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T21:44:22.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmEditProduct.cs [Design]",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmEditProduct.cs",
-              "RelativeDocumentMoniker": "BonsandBlooms\\frmEditProduct.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmEditProduct.cs [Design]",
-              "RelativeToolTip": "BonsandBlooms\\frmEditProduct.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T21:27:45.392Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BonsandBlooms.cs [Design]",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\BonsandBlooms.cs",
-              "RelativeDocumentMoniker": "BonsandBlooms\\BonsandBlooms.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\BonsandBlooms.cs [Design]",
-              "RelativeToolTip": "BonsandBlooms\\BonsandBlooms.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T21:26:43.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "frmStockin.cs [Design]",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmStockin.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmStockin.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmStockin.cs",
               "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmStockin.cs [Design]",
-              "RelativeToolTip": "BonsandBlooms\\frmStockin.cs [Design]",
+              "RelativeToolTip": "BonsandBlooms\\BonsandBlooms\\frmStockin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T21:38:47.659Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "frmStockout.cs [Design]",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmStockout.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmStockout.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmStockout.cs",
               "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmStockout.cs [Design]",
-              "RelativeToolTip": "BonsandBlooms\\frmStockout.cs [Design]",
+              "RelativeToolTip": "BonsandBlooms\\BonsandBlooms\\frmStockout.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T21:38:49.854Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "frmListofProducts.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListofProducts.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmListofProducts.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmListofProducts.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListofProducts.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmListofProducts.cs",
               "RelativeToolTip": "BonsandBlooms\\frmListofProducts.cs",
               "ViewState": "AgIAAIMAAAAAAAAAAAAqwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -261,34 +319,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "frmProduct.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmProduct.cs",
-              "RelativeDocumentMoniker": "BonsandBlooms\\frmProduct.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmProduct.cs",
-              "RelativeToolTip": "BonsandBlooms\\frmProduct.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T21:24:16.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "frmCategoryManager.cs [Design]",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmCategoryManager.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmCategoryManager.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmCategoryManager.cs",
               "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmCategoryManager.cs [Design]",
-              "RelativeToolTip": "BonsandBlooms\\frmCategoryManager.cs [Design]",
+              "RelativeToolTip": "BonsandBlooms\\BonsandBlooms\\frmCategoryManager.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T11:10:10.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "frmInventoryReports.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmInventoryReports.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmInventoryReports.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmInventoryReports.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmInventoryReports.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmInventoryReports.cs",
               "RelativeToolTip": "BonsandBlooms\\frmInventoryReports.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -296,11 +342,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "frmCategoryManager.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmCategoryManager.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmCategoryManager.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmCategoryManager.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmCategoryManager.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmCategoryManager.cs",
               "RelativeToolTip": "BonsandBlooms\\frmCategoryManager.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA9wKgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -308,23 +354,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DatabaseConnect.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\DatabaseConnect.cs",
-              "RelativeDocumentMoniker": "BonsandBlooms\\DatabaseConnect.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\DatabaseConnect.cs",
-              "RelativeToolTip": "BonsandBlooms\\DatabaseConnect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgBAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T20:38:36.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "frmStockout.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmStockout.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmStockout.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmStockout.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmStockout.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmStockout.cs",
               "RelativeToolTip": "BonsandBlooms\\frmStockout.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAgwHMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -332,11 +366,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "frmStockin.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmStockin.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmStockin.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmStockin.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmStockin.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmStockin.cs",
               "RelativeToolTip": "BonsandBlooms\\frmStockin.cs",
               "ViewState": "AgIAAKcAAAAAAAAAAAAQwLsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -344,22 +378,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "frmUser.cs [Design]",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmUser.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmUser.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmUser.cs",
               "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmUser.cs [Design]",
-              "RelativeToolTip": "BonsandBlooms\\frmUser.cs [Design]",
+              "RelativeToolTip": "BonsandBlooms\\BonsandBlooms\\frmUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T21:46:04.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "frmUser.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmUser.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmUser.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmUser.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmUser.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmUser.cs",
               "RelativeToolTip": "BonsandBlooms\\frmUser.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAAIwIEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -367,35 +401,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "BonsandBlooms.Designer.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\BonsandBlooms.Designer.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms.Designer.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\BonsandBlooms.Designer.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\BonsandBlooms.Designer.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms.Designer.cs",
               "RelativeToolTip": "BonsandBlooms\\BonsandBlooms.Designer.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAAADAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T21:25:41.337Z"
+              "WhenOpened": "2025-05-22T21:25:41.337Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "frmInventoryReports.Designer.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmInventoryReports.Designer.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmInventoryReports.Designer.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmInventoryReports.Designer.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmInventoryReports.Designer.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmInventoryReports.Designer.cs",
               "RelativeToolTip": "BonsandBlooms\\frmInventoryReports.Designer.cs",
               "ViewState": "AgIAANYAAAAAAAAAAAAlwOwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T21:17:43.221Z"
+              "WhenOpened": "2025-05-22T21:17:43.221Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "frmCategoryManager.Designer.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmCategoryManager.Designer.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmCategoryManager.Designer.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmCategoryManager.Designer.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmCategoryManager.Designer.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmCategoryManager.Designer.cs",
               "RelativeToolTip": "BonsandBlooms\\frmCategoryManager.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -403,11 +439,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "frmLogin.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmLogin.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmLogin.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmLogin.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmLogin.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmLogin.cs",
               "RelativeToolTip": "BonsandBlooms\\frmLogin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAEBVwEUAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -415,11 +451,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "frmListStockout.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListStockout.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmListStockout.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmListStockout.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListStockout.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmListStockout.cs",
               "RelativeToolTip": "BonsandBlooms\\frmListStockout.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -427,11 +463,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "frmListStockin.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListStockin.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmListStockin.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmListStockin.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmListStockin.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmListStockin.cs",
               "RelativeToolTip": "BonsandBlooms\\frmListStockin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -439,23 +475,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "BonsandBlooms.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\BonsandBlooms.cs",
-              "RelativeDocumentMoniker": "BonsandBlooms\\BonsandBlooms.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\BonsandBlooms.cs",
-              "RelativeToolTip": "BonsandBlooms\\BonsandBlooms.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T21:25:20.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "frmEditProduct.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmEditProduct.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmEditProduct.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmEditProduct.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmEditProduct.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmEditProduct.cs",
               "RelativeToolTip": "BonsandBlooms\\frmEditProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -463,11 +487,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "usableFunction.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\usableFunction.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\usableFunction.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\usableFunction.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\usableFunction.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\usableFunction.cs",
               "RelativeToolTip": "BonsandBlooms\\usableFunction.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAkwFoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -475,11 +499,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "frmStockin.Designer.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmStockin.Designer.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmStockin.Designer.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmStockin.Designer.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmStockin.Designer.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmStockin.Designer.cs",
               "RelativeToolTip": "BonsandBlooms\\frmStockin.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -487,11 +511,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "frmEditProduct.Designer.cs",
-              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmEditProduct.Designer.cs",
+              "DocumentMoniker": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmEditProduct.Designer.cs",
               "RelativeDocumentMoniker": "BonsandBlooms\\frmEditProduct.Designer.cs",
-              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\BonsandBlooms\\frmEditProduct.Designer.cs",
+              "ToolTip": "E:\\CODING PROJECTS\\C#\\Bons and Blooms\\BonsandBlooms\\frmEditProduct.Designer.cs",
               "RelativeToolTip": "BonsandBlooms\\frmEditProduct.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

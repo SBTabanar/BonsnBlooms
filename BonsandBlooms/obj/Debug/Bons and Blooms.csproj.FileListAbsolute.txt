@@ -19,3 +19,26 @@ E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\Bons
 E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\Bons and Blooms.csproj.CoreCompileInputs.cache
 E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\BonsandBlooms.exe
 E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\BonsandBlooms.pdb
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\bin\Debug\BonsandBlooms.exe.config
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\bin\Debug\BonsandBlooms.exe
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\bin\Debug\BonsandBlooms.pdb
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\Bons and Blooms.csproj.AssemblyReference.cache
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.BonsandBlooms.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmCategoryManager.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmEditProduct.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmInventoryReports.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmListofProducts.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmListStockin.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmListStockout.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmLogin.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmProduct.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmStockin.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmStockout.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmUser.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.Properties.Resources.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\Bons and Blooms.csproj.GenerateResource.cache
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\Bons and Blooms.csproj.CoreCompileInputs.cache
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.exe
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\BonsandBlooms.pdb
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\Interop.ADOX.dll
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\obj\Debug\Bons and Blooms.csproj.ResolveComReference.cache

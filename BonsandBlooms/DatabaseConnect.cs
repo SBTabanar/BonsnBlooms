@@ -1,25 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data;
 using System.Windows.Forms;
 using System.Data.OleDb;
-
 
 namespace BonsandBlooms
 {
     class DatabaseConnect
     {
-
-        private OleDbConnection con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" 
+        private OleDbConnection con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source="
                                      + Application.StartupPath + "\\BonsandBloomsDatabase.accdb; JET OLEDB:Database Password = admin1234");
         private OleDbCommand cmd;
         private OleDbDataAdapter da;
-        public DataTable dt; 
+        public DataTable dt;
         int result;
         usableFunction funct = new usableFunction();
+
         public void Execute_CUD(string sql, string msg_false, string msg_true)
         {
             try
@@ -30,14 +25,14 @@ namespace BonsandBlooms
                 cmd.CommandText = sql;
                 result = cmd.ExecuteNonQuery();
 
-                if(result > 0)
+                if (result > 0)
                 {
                     MessageBox.Show(msg_true);
                 }
                 else
                 {
                     MessageBox.Show(msg_false);
-                } 
+                }
 
             }
             catch (Exception ex)
@@ -46,9 +41,10 @@ namespace BonsandBlooms
             }
             finally
             {
-                con.Close(); 
+                con.Close();
             }
         }
+
         public void Execute_Query(string sql)
         {
             try
@@ -56,12 +52,12 @@ namespace BonsandBlooms
                 if (con.State != ConnectionState.Open)
                 {
                     con.Open();
-                } 
+                }
                 cmd = new OleDbCommand();
                 cmd.Connection = con;
                 cmd.CommandText = sql;
                 result = cmd.ExecuteNonQuery();
-                 
+
             }
             catch (Exception ex)
             {
@@ -127,7 +123,6 @@ namespace BonsandBlooms
             }
         }
 
-
         public void Load_DTG(string sql, DataGridView dtg, params OleDbParameter[] parameters)
         {
             try
@@ -139,7 +134,6 @@ namespace BonsandBlooms
 
                 using (OleDbCommand cmd = new OleDbCommand(sql, con))
                 {
-                    // Add parameters if any
                     if (parameters != null && parameters.Length > 0)
                     {
                         cmd.Parameters.AddRange(parameters);
@@ -174,13 +168,12 @@ namespace BonsandBlooms
             {
                 if (con.State != ConnectionState.Open)
                 {
-                    con.Open(); 
-                } 
+                    con.Open();
+                }
 
                 cmd = new OleDbCommand();
                 da = new OleDbDataAdapter();
                 dt = new DataTable();
-
 
                 cmd.Connection = con;
                 cmd.CommandText = sql;
@@ -190,8 +183,6 @@ namespace BonsandBlooms
                 cbo.DataSource = dt;
                 cbo.ValueMember = dt.Columns[0].ColumnName;
                 cbo.DisplayMember = dt.Columns[1].ColumnName;
-
-
             }
             catch (Exception ex)
             {
@@ -202,8 +193,8 @@ namespace BonsandBlooms
                 con.Close();
                 da.Dispose();
             }
-
         }
+
         public void combo(string sql, ComboBox cbo)
         {
             try
@@ -217,20 +208,26 @@ namespace BonsandBlooms
                 da = new OleDbDataAdapter();
                 dt = new DataTable();
 
-
                 cmd.Connection = con;
                 cmd.CommandText = sql;
                 da.SelectCommand = cmd;
                 da.Fill(dt);
 
                 cbo.Items.Clear();
-                cbo.Text = "Select";
-                foreach(DataRow r in dt.Rows)
+
+                if (dt.Rows.Count > 0)
                 {
-                    cbo.Items.Add(r.Field<string>(0));
+                    foreach (DataRow r in dt.Rows)
+                    {
+                        cbo.Items.Add(r.Field<string>(0));
+                    }
+                    cbo.SelectedIndex = 0;
                 }
-
-
+                else
+                {
+                    cbo.Items.Add("Select");
+                    cbo.SelectedIndex = 0;
+                }
             }
             catch (Exception ex)
             {
@@ -241,10 +238,9 @@ namespace BonsandBlooms
                 con.Close();
                 da.Dispose();
             }
-
         }
-        public void singleResult(string sql)
 
+        public void singleResult(string sql)
         {
             try
             {
@@ -253,14 +249,11 @@ namespace BonsandBlooms
                 da = new OleDbDataAdapter();
                 dt = new DataTable();
 
-
                 cmd.Connection = con;
                 cmd.CommandText = sql;
                 da.SelectCommand = cmd;
-                da.Fill(dt);  
-
-
-
+                da.Fill(dt);
+                // Implementation depends on usage, add null checks if accessing dt.Rows
             }
             catch (Exception ex)
             {
@@ -274,17 +267,14 @@ namespace BonsandBlooms
         }
 
         public int maxrow(string sql)
-
         {
             int maxrow = 0;
-             
             try
             {
                 con.Open();
                 cmd = new OleDbCommand();
                 da = new OleDbDataAdapter();
                 dt = new DataTable();
-
 
                 cmd.Connection = con;
                 cmd.CommandText = sql;
@@ -292,9 +282,6 @@ namespace BonsandBlooms
                 da.Fill(dt);
 
                 maxrow = dt.Rows.Count;
-
-               
-
             }
             catch (Exception ex)
             {
@@ -305,107 +292,7 @@ namespace BonsandBlooms
                 da.Dispose();
                 con.Close();
             }
-             
             return maxrow;
-
-        }
-
-
-        public void loadReports(string sql)
-
-        {
-            try
-            {
-                con.Open();
-                cmd = new OleDbCommand();
-                da = new OleDbDataAdapter();
-                dt = new DataTable();
-
-
-                cmd.Connection = con;
-                cmd.CommandText = sql;
-                da.SelectCommand = cmd;
-                da.Fill(dt);
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                con.Close();
-                da.Dispose();
-            }
-        }
-
-        public void autocomplete(string sql,TextBox txt)
-        {
-            try
-            {
-                con.Open();
-                cmd = new OleDbCommand();
-                da = new OleDbDataAdapter();
-                dt = new DataTable();
-
-
-                cmd.Connection = con;
-                cmd.CommandText = sql;
-                da.SelectCommand = cmd;
-                da.Fill(dt);
-                txt.AutoCompleteCustomSource.Clear();
-                txt.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
-                txt.AutoCompleteSource = AutoCompleteSource.CustomSource;
-                foreach (DataRow r in dt.Rows)
-                {
-                    txt.AutoCompleteCustomSource.Add(r.Field<string>(0));
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                con.Close();
-                da.Dispose();
-            }
-        }
-
-        public void autonumber(int ID, TextBox txt)
-        {
-            try
-            {
-
-                if (con.State != ConnectionState.Open)
-                {
-                    con.Open(); 
-                }
-                cmd = new OleDbCommand();
-                da = new OleDbDataAdapter();
-                dt = new DataTable();
-
-
-                cmd.Connection = con;
-                cmd.CommandText = "SELECT (STARTNUM + INCNUM) FROM tblAutoNumber WHERE ID=" + ID;
-                da.SelectCommand = cmd;
-                da.Fill(dt);
-
-                txt.Text = DateTime.Now.ToString("yyyy") + dt.Rows[0].Field<string>(0);
-            
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                con.Close();
-                da.Dispose();
-            }
         }
 
         public int maxrow(string sql, params OleDbParameter[] parameters)
@@ -438,6 +325,102 @@ namespace BonsandBlooms
             return maxrow;
         }
 
+        public void loadReports(string sql)
+        {
+            try
+            {
+                con.Open();
+                cmd = new OleDbCommand();
+                da = new OleDbDataAdapter();
+                dt = new DataTable();
+
+                cmd.Connection = con;
+                cmd.CommandText = sql;
+                da.SelectCommand = cmd;
+                da.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+                da.Dispose();
+            }
+        }
+
+        public void autocomplete(string sql, TextBox txt)
+        {
+            try
+            {
+                con.Open();
+                cmd = new OleDbCommand();
+                da = new OleDbDataAdapter();
+                dt = new DataTable();
+
+                cmd.Connection = con;
+                cmd.CommandText = sql;
+                da.SelectCommand = cmd;
+                da.Fill(dt);
+
+                txt.AutoCompleteCustomSource.Clear();
+                txt.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+                txt.AutoCompleteSource = AutoCompleteSource.CustomSource;
+
+                foreach (DataRow r in dt.Rows)
+                {
+                    txt.AutoCompleteCustomSource.Add(r.Field<string>(0));
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+                da.Dispose();
+            }
+        }
+
+        public void autonumber(int ID, TextBox txt)
+        {
+            try
+            {
+                if (con.State != ConnectionState.Open)
+                {
+                    con.Open();
+                }
+                cmd = new OleDbCommand();
+                da = new OleDbDataAdapter();
+                dt = new DataTable();
+
+                cmd.Connection = con;
+                cmd.CommandText = "SELECT (STARTNUM + INCNUM) FROM tblAutoNumber WHERE ID=" + ID;
+                da.SelectCommand = cmd;
+                da.Fill(dt);
+
+                if (dt.Rows.Count > 0)
+                {
+                    txt.Text = DateTime.Now.ToString("yyyy") + dt.Rows[0].Field<string>(0);
+                }
+                else
+                {
+                    txt.Text = DateTime.Now.ToString("yyyy") + "0000"; // fallback default
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+                da.Dispose();
+            }
+        }
+
         public object Execute_Scalar(string sql, params OleDbParameter[] parameters)
         {
             object result = null;
@@ -463,12 +446,10 @@ namespace BonsandBlooms
             return result;
         }
 
-
         public void autonumber_transaction(int ID, Label txt)
         {
             try
             {
-
                 if (con.State != ConnectionState.Open)
                 {
                     con.Open();
@@ -477,15 +458,19 @@ namespace BonsandBlooms
                 da = new OleDbDataAdapter();
                 dt = new DataTable();
 
-
                 cmd.Connection = con;
                 cmd.CommandText = "SELECT (STARTNUM + INCNUM) FROM tblAutoNumber WHERE ID=" + ID;
                 da.SelectCommand = cmd;
                 da.Fill(dt);
 
-                txt.Text = dt.Rows[0].Field<string>(0);
-
-
+                if (dt.Rows.Count > 0)
+                {
+                    txt.Text = dt.Rows[0].Field<string>(0);
+                }
+                else
+                {
+                    txt.Text = "0000"; // fallback default
+                }
             }
             catch (Exception ex)
             {
@@ -497,12 +482,10 @@ namespace BonsandBlooms
                 da.Dispose();
             }
         }
+
         public void update_Autonumber(int id)
-        { 
-            Execute_Query("UPDATE tblAutoNumber SET  INCNUM=INCNUM + 1 WHERE ID=" + id);
+        {
+            Execute_Query("UPDATE tblAutoNumber SET INCNUM=INCNUM + 1 WHERE ID=" + id);
         }
-       
-
-
     }
 }
