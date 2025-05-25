@@ -212,7 +212,7 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(133, 60);
+            this.label5.Location = new System.Drawing.Point(133, 70);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(324, 42);
             this.label5.TabIndex = 71;
@@ -263,9 +263,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::BonsandBlooms.Properties.Resources.logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(215, -13);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(133, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(152, 106);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 72;
             this.pictureBox1.TabStop = false;
@@ -279,7 +279,6 @@
             this.Controls.Add(this.btnManageCategories);
             this.Controls.Add(this.txtPROQTY);
             this.Controls.Add(this.PROQTY);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.cboCateg);
             this.Controls.Add(this.Label1);
@@ -295,6 +294,7 @@
             this.Controls.Add(this.Button2);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.BTNSAVE);
+            this.Controls.Add(this.pictureBox1);
             this.MaximumSize = new System.Drawing.Size(560, 484);
             this.MinimumSize = new System.Drawing.Size(560, 484);
             this.Name = "frmProduct";

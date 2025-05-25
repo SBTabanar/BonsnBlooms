@@ -3,6 +3,7 @@ E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\bin\Debug\Bons
 E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\bin\Debug\BonsandBlooms.pdb
 E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\Bons and Blooms.csproj.AssemblyReference.cache
 E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\BonsandBlooms.BonsandBlooms.resources
+E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmCategoryManager.resources
 E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmEditProduct.resources
 E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmInventoryReports.resources
 E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmListofProducts.resources
@@ -18,4 +19,3 @@ E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\Bons
 E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\Bons and Blooms.csproj.CoreCompileInputs.cache
 E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\BonsandBlooms.exe
 E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\BonsandBlooms.pdb
-E:\CODING PROJECTS\C#\Bons and Blooms\BonsandBlooms\BonsandBlooms\obj\Debug\BonsandBlooms.frmCategoryManager.resources

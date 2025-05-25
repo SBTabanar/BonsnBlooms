@@ -378,10 +378,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::BonsandBlooms.Properties.Resources.logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(226, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(946, 0);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(161, 89);
+            this.pictureBox1.Size = new System.Drawing.Size(211, 107);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 46;
             this.pictureBox1.TabStop = false;
