@@ -18,8 +18,10 @@ namespace BonsandBlooms
         {
             func.clearTxt(this);
             cboCateg.Text = "Select";
-            config.autonumber(2, txtPROCODE);
+
+            config.autonumber(1, txtPROCODE); 
         }
+
 
         private void frmProduct_Load(object sender, EventArgs e)
         {
@@ -57,7 +59,7 @@ namespace BonsandBlooms
 
             if (string.IsNullOrEmpty(selectedCategory) || selectedCategory == "Select")
             {
-                MessageBox.Show("Please select a valid category.");
+                MessageBox.Show("Please select or create a valid category.");
                 cboCateg.Focus();
                 return;
             }
@@ -114,7 +116,7 @@ namespace BonsandBlooms
                       "VALUES ('" + txtPROCODE.Text + "', '" + TXTPRONAME.Text + "', '" + TXTDESC.Text + "', '" + selectedCategory + "', " + price + ", " + qty + ")";
                 config.Execute_CUD(sql, "Error to save Product.", "Product added successfully!");
 
-                config.update_Autonumber(2);
+                config.update_Autonumber(1);
             }
 
             btnNew_Click(sender, e);

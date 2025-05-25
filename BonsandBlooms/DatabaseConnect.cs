@@ -391,34 +391,33 @@ namespace BonsandBlooms
                 {
                     con.Open();
                 }
-                cmd = new OleDbCommand();
-                da = new OleDbDataAdapter();
-                dt = new DataTable();
 
-                cmd.Connection = con;
-                cmd.CommandText = "SELECT (STARTNUM + INCNUM) FROM tblAutoNumber WHERE ID=" + ID;
-                da.SelectCommand = cmd;
-                da.Fill(dt);
+                string sql = "SELECT (STARTNUM + INCNUM) FROM tblAutoNumber WHERE ID = ?";
+                using (OleDbCommand cmd = new OleDbCommand(sql, con))
+                {
+                    cmd.Parameters.AddWithValue("?", ID);
+                    object result = cmd.ExecuteScalar();
 
-                if (dt.Rows.Count > 0)
-                {
-                    txt.Text = DateTime.Now.ToString("yyyy") + dt.Rows[0].Field<string>(0);
-                }
-                else
-                {
-                    txt.Text = DateTime.Now.ToString("yyyy") + "0000"; // fallback default
+                    if (result != null)
+                    {
+                        txt.Text = DateTime.Now.ToString("yyyy") + Convert.ToInt32(result).ToString(); 
+                    }
+                    else
+                    {
+                        txt.Text = DateTime.Now.ToString("yyyy") + "1000";
+                    }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Error retrieving autonumber: " + ex.Message);
             }
             finally
             {
                 con.Close();
-                da.Dispose();
             }
         }
+
 
         public object Execute_Scalar(string sql, params OleDbParameter[] parameters)
         {
@@ -464,11 +463,11 @@ namespace BonsandBlooms
 
                 if (dt.Rows.Count > 0)
                 {
-                    txt.Text = dt.Rows[0].Field<string>(0);
+                    txt.Text = dt.Rows[0].Field<int>(0).ToString();
                 }
                 else
                 {
-                    txt.Text = "0000"; // fallback default
+                    txt.Text = "0000";
                 }
             }
             catch (Exception ex)
@@ -484,7 +483,30 @@ namespace BonsandBlooms
 
         public void update_Autonumber(int id)
         {
-            Execute_Query("UPDATE tblAutoNumber SET INCNUM=INCNUM + 1 WHERE ID=" + id);
+            try
+            {
+                if (con.State != ConnectionState.Open)
+                    con.Open();
+
+                using (OleDbCommand cmd = new OleDbCommand("UPDATE tblAutoNumber SET INCNUM = INCNUM + 1 WHERE ID = 1", con))
+                {
+                    int rowsAffected = cmd.ExecuteNonQuery();
+
+                    if (rowsAffected == 0)
+                        MessageBox.Show("Warning: Autonumber update failed because no matching row exists in tblAutoNumber.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error updating autonumber: " + ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
         }
+
+
+
     }
 }

@@ -28,10 +28,13 @@ namespace BonsandBlooms
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            query = "SELECT * FROM tblUser WHERE U_UNAME ='" + UsernameTextBox.Text + "' AND U_PASS = '" + PasswordTextBox.Text + "'";
-            maxrow = config.maxrow(query);
+            string query = "SELECT * FROM tblUser WHERE StrComp(U_PASS, ?, 0) = 0 AND U_UNAME = ?";
+            DataTable dt = config.Execute_Query(query,
+                new OleDbParameter("@password", PasswordTextBox.Text),
+                new OleDbParameter("@username", UsernameTextBox.Text));
 
-            if (maxrow > 0)
+
+            if (dt.Rows.Count > 0)
             {
                 MessageBox.Show("User successfully logged in");
                 string userRole = getUserRole(UsernameTextBox.Text);
@@ -43,6 +46,7 @@ namespace BonsandBlooms
                 MessageBox.Show("Account does not exist!", "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
         private string getUserRole(string username)
         {

@@ -86,8 +86,8 @@ namespace BonsandBlooms
                 @"CREATE TABLE tblAutonumber (
                     ID AUTOINCREMENT PRIMARY KEY,
                     STARTNUM TEXT(50),
-                    INCNUM LONG,
-                    ENDNUM LONG,
+                    INCNUM TEXT(50),
+                    ENDNUM TEXT(50),
                     TYPE TEXT(50)
                 )",
 
@@ -117,10 +117,19 @@ namespace BonsandBlooms
 
                     string insertAdmin = @"INSERT INTO tblUser (U_NAME, U_UNAME, U_PASS, U_TYPE) 
                                    VALUES ('Administrator', 'admin', 'admin', 'Administrator')";
+
                     using (OleDbCommand cmd = new OleDbCommand(insertAdmin, connection))
                     {
                         cmd.ExecuteNonQuery();
                     }
+                    string insertAutonumber = @"INSERT INTO tblAutoNumber (STARTNUM, INCNUM, ENDNUM, TYPE) 
+                            VALUES (1000, 0, 9999, 'Product')";
+                    using (OleDbCommand cmd = new OleDbCommand(insertAutonumber, connection))
+                    {
+                        cmd.ExecuteNonQuery();
+                    }
+
+
                 }
                 catch (Exception ex)
                 {

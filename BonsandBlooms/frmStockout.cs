@@ -245,7 +245,7 @@ namespace BonsandBlooms
                 LBLMSG.BackColor = Color.Aquamarine;
                 LBLMSG.ForeColor = Color.Black;
 
-                config.update_Autonumber(1);
+                config.update_Autonumber(2);
 
                 if (newQty < 10)
                 {
